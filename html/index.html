@@ -8,25 +8,30 @@
     <script src="https://kit.fontawesome.com/bd3c33091f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main>
-        <section>
-            <div class="head">
-                <h1>Bem-vindo ao <span>Horcrux</span></h1>
-            </div>
+    <main id="container">
+        <h1>Bem vindo ao <strong>Horcrux</strong></h1>
+        <section id="message">
+            <h2>É um novo membro?<br>Cadastre-se</br></h2>
         </section>
-
-        <section>
-            <div class="container">
-                    <div class="first-card">
-                        <i class="fa-solid fa-comment-dots"> </i>
-                        <p>conheça pessoas</p>
+        <section id="login-form">
+            <div id="register-avatar">
+                <i class="fa-solid fa-id-card" style="font-size: 50px; color: red; font-style: normal;"></i>
+            </div>
+            <div id="register-form">
+                <form>
+                    <div>
+                        <label for="name">
+                        <input type="text" name="name" id="name" placeholder="E-mail">
                     </div>
-                    <div class="second-card">
-                        
+                    <div> 
+                        <label for="password"> 
+                        <input type="password" placeholder="Senha" id="password">
                     </div>
-                    <div class="third-card">
-
+                    <div>
+                        <a href="#">Login</a>
+                        <a href="#">Cancelar</a>
                     </div>
+                </form>
             </div>
         </section>
     </main>
