@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Horcrux</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body> 
+    <main>
+        <div id="header">
+            <h1>Bem vindo ao <span>Horcrux</span></h1>
+        </div>
+        
+        <section id="login-form">
+
+            <div class="login">
+                <h2>É um novo membro?<br><a href="#">Cadastre-se</a></br></h2>
+            </div>
+
+            
+            <div id="register-form">
+                <div id="register-avatar">
+                    <div class="user" data-feather="user"></div>
+                </div>
+                <form>
+                    <div class="email-input">
+                        <div class="email-lock" data-feather="mail"></div>
+                        <input type="text" name="email" id="email" placeholder="E-mail">
+                    </div>
+                    <div class="senha-input"> 
+                        <div class="lock" data-feather="lock"></div>
+
+                        <input type="password" placeholder="Senha" id="password">
+                    </div>
+                    <div class="buttons-actions">
+                        <div class="button-enviar">
+                            <button>Login <div class="login-icon" data-feather="log-in"></div></button> 
+                            
+                        </div>
+                        
+                        <div class="button-cancelar">
+                            <button>Cancelar <div class="cancel-icon" data-feather="x-circle"></div></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
