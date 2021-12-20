@@ -57,6 +57,10 @@ main #login-form .login h2{
 }
 main #login-form .login h2 a{
     color: var(--header-text);
+    text-decoration: none;
+}
+main #login-form .login h2 a:hover{
+    color: rgb(247, 247, 101);
 }
 
 main #register-form {
@@ -87,8 +91,12 @@ main #register-form input{
     padding-left: 0.5rem;
     background-color: var(--text-boxes);
 }
-main #register-form .email-lock {
+main #register-form .email-input .email-lock {
     color: grey;
+}
+main #register-form input:focus{
+    color: var(--text-color);
+    border-bottom: 1.5px solid var(--text-color);
 }
 main #register-form .lock{
     color: grey;
