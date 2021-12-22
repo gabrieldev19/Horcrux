@@ -6,7 +6,7 @@
 
 :root{
     --text-color: #001273;
-    --header-text: #F7DE02;
+    --header-text: gold;
     --text-boxes: #FAFAFA;
 }
 
@@ -36,12 +36,14 @@ main #section{
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 main #section .container{
     background-color: var(--text-boxes);
     height: 300px;
     width: 80%;
     display: flex;
+    border-radius: 2rem;
 }
 main #section .container .first-card{
     width: 500px;

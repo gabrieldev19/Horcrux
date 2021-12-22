@@ -45,7 +45,7 @@
                         </div>
                         
                         <div class="button-cancelar">
-                            <button>Cancelar <div class="cancel-icon" data-feather="x-circle"></div></button>
+                            <button type="button" onclick="redirect()">Cancelar <div class="cancel-icon" data-feather="x-circle"></div></button>
                         </div>
                     </div>
                 </form>
@@ -54,7 +54,11 @@
     </main>
 
     <script>
-        feather.replace()
+        feather.replace();
+
+        function redirect(){
+            window.location.href = "/html/home.html"
+        }
     </script>
 </body>
 </html>
